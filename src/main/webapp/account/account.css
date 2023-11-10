@@ -1,0 +1,117 @@
+/* @import url(../index.css); */
+@import url(./acc-nav.css);
+
+/* account.html */
+
+
+.left{
+
+    width: 30vw;
+    /* height: 100vh; */
+    padding: 5vh 12vw 5vh 5vw;
+    font-size: larger;
+    /* position: fixed;
+  z-index: 111;
+    top: 8vw;
+    left: 0; */
+    /* bottom: 10vw; */
+}
+.left>a>div{
+    padding:2vh;
+}
+.left>a>div:hover{
+    border-bottom: 2px solid #CDAB82;
+    /* background-color: #f3cfa4; */
+}
+.right{
+    /* margin-left: 30vw; */
+    width: 70vw;
+    /* height: 100vh; */
+}
+.root{
+    padding: 5vh 12vb;
+}
+input,select{
+    /* width: 20vw;
+    height: 4vh; */
+    width: 24vw;
+    height: 6vh;
+    /* margin: 2vh 0; */
+    padding-left: 1vw;
+    background-color: transparent;
+    border: 1px solid rgba(172, 160, 160, 0.178);
+    color: white;
+}
+textarea{
+    background-color: transparent;
+    border: 1px solid rgba(112, 112, 112, 0.178);
+    color: white;
+}
+option{
+    background-color: black;
+}
+
+
+/* cart.html */
+
+.cart-items{
+    display: flex;
+    justify-content: space-around;
+}
+.items{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+.items>img{
+    width: 12vw;
+}
+/* .prod-price{
+    color: #cdab82;
+} */
+
+.pay{
+    border: 1px solid #CDAB82;
+    padding: 2vh 2vw;
+}
+.pay-btn{
+    margin-top: 4vh;
+    width: 100%;
+    font-weight: bolder;
+}
+
+/* Payment page */
+.payment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    /* border: 1px solid #CDAB82; */
+}
+.payment-info{
+    /* height: 50vh;   */
+    width: 40vw; 
+    border: 1px solid #CDAB82;
+    padding: 4vh 6vw;
+}
+.payment-amt{
+    display: flex;
+    justify-content: space-between;
+}
+.payment-method>form>input{
+    width: 100%;
+    margin: 2vh 0vw;
+    color-scheme: dark;
+}
+.payment-method>form>button{
+    width: 100%;
+    margin: 1vh 0vw;
+}
+
+
+/* Order */
+/* .cancel-order{
+    background-color: red;
+} */

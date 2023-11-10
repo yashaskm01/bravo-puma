@@ -1,0 +1,55 @@
+@import url(../index.css);
+
+.acc-drp {
+    float: left;
+    overflow: hidden;
+}
+
+.acc-drp .acc-drpbtn{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: aliceblue;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.acc-drp-con {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    background-color: black;
+    min-width: 120px;
+    right: 6px;
+    z-index: 1;
+}
+
+.acc-drp-con a {
+    float: none;
+    color: aliceblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    position: relative;
+}
+.acc-drp-con a::after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  /* color: #CDAB82; */
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-in-out;
+  transform: scaleX(0);
+}
+.acc-drp-con a:hover{
+    color: #CDAB82;
+}
+.acc-drp:hover .acc-drp-con {
+    display: block;
+}
